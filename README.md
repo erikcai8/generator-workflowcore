@@ -1,4 +1,4 @@
-# generator-workflowcore [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+﻿# generator-workflowcore [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > Yeoman generator for workflow .NET core projects
 
 ## Installation
@@ -34,3 +34,6 @@ Apache-2.0 © [Erik Cai]()
 [travis-url]: https://travis-ci.org/erikcai8@outlook.com/generator-workflowcore
 [daviddm-image]: https://david-dm.org/erikcai8@outlook.com/generator-workflowcore.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/erikcai8@outlook.com/generator-workflowcore
+=======
+# generator-workflowcore
+Yeoman generator for workflow .NET core projects
