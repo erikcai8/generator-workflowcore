@@ -30,9 +30,30 @@ module.exports = yeoman.Base.extend({
 
   writing: function () {
     this.fs.copy(
-      this.templatePath('dummyfile.txt'),
-      this.destinationPath('dummyfile.txt')
+      this.templatePath('Service1.xamlx'),
+      this.destinationPath('Service1.xamlx')
     );
+
+    this.fs.copy(
+      this.templatePath('project.json'),
+      this.destinationPath('project.json')
+    );
+
+    this.fs.copy(
+      this.templatePath('bower.json'),
+      this.destinationPath('bower.json')
+    );
+
+    this.fs.copy(
+      this.templatePath('package.json'),
+      this.destinationPath('package.json')
+    );
+
+    this.fs.copy(
+      this.templatePath('gulpfile.js'),
+      this.destinationPath('gulpfile.js')
+    );
+
   },
 
   install: function () {
