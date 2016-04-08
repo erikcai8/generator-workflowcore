@@ -16,7 +16,7 @@ module.exports = yeoman.Base.extend({
     var prompts = [{
       type: 'confirm',
       name: 'someAnswer',
-      message: 'Would you like to enable this option?',
+      message: 'Would you like to create a WCF Workflow Core Service Application project?',
       default: true
     }];
 
